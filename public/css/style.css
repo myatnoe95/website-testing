@@ -1,0 +1,163 @@
+body {
+  background-color: #402640;
+}
+
+#banner_logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 690px;
+}
+
+#first_section {
+  background-color: #2c0f29;
+}
+
+#first_section img {
+  vertical-align: baseline;
+}
+
+#navbarNav ul li a {
+  font-size: 11px;
+  color: #ffffff;
+}
+
+#fs_second_div {
+  background-image: linear-gradient(to right, #8e608e, #402640, #371a34);
+}
+
+#fs_second_div ::placeholder {
+  font-size: 14px;
+  color: #431f43;
+}
+
+#fs_second_div button {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e01a59;
+}
+
+#second_section {
+  background-color: #2c0f29;
+  background-image: url("../img/Rectangle 7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#ss_second_div {
+  background-color: rgba(23, 6, 23, 0.3);
+}
+
+#ts_img {
+  background-image: url("../img/Union.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#fourth_section {
+  background-color: #2c0f29;
+  background-image: url("../img/Rectangle 7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fos_card {
+  border: 3px solid #431f43;
+  background-color: #170617;
+  border-radius: 122px;
+  padding: 15px;
+}
+
+#fos_second_div {
+  background-color: rgba(23, 6, 23, 0.3);
+}
+
+#fos_second_div button {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e01a59;
+}
+
+#fos_second_div ::placeholder {
+  font-size: 14px;
+  color: #431f43;
+}
+
+#badge_icon {
+  position: absolute;
+  top: -40px;
+  width: 130px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e01a59;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+@media (max-width: 1200px) {
+  #banner_logo {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  #badge_icon {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  #badge_icon {
+    right: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  #badge_icon {
+    right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #badge_icon {
+    right: 130px;
+  }
+}
+
+@media (min-width: 993px) {
+  #badge_icon {
+    right: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #badge_icon {
+    right: 340px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #badge_icon {
+    right: 430px;
+  }
+}

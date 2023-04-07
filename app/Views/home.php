@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Single Page</title>
+        <title>IRON SOFTWARE</title>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="<?php echo htmlspecialchars('IRON SOFTWARE'); ?>">
+        <meta name="keyword" content="<?php echo htmlspecialchars('website, software'); ?>">
+        <meta property="og:title" content="<?php echo htmlspecialchars('IRON | SOFTWARE COMPANY'); ?>"/>
+        <meta property="og:image" content="<?php echo htmlspecialchars(base_url('images/LOGO1.png')); ?>">
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="<?php echo base_url('css/style.css'); ?>">
     </head>

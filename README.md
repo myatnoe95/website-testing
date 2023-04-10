@@ -20,6 +20,14 @@ To install and run the project, follow these steps:
 
 Clone the repository to your local machine.
 
+create a new env.file and copy all of the env file in repository.
+
+you will need to uncomment the CI_ENVIRONMENT variable and set its value to development.
+
+Save and commit the changes to the repository.
+
+run the command 'composer install' to install composer.
+
 Start a PHP development server by running the following command in the terminal:
 
 run with the command 'php spark serve'.

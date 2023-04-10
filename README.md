@@ -20,7 +20,7 @@ To install and run the project, follow these steps:
 
 Clone the repository to your local machine.
 
-create a new env.file and copy all of the env file in repository.
+create a new .env file and copy all of the env file in repository.
 
 you will need to uncomment the CI_ENVIRONMENT variable and set its value to development.
 
